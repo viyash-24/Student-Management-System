@@ -17,3 +17,40 @@
 </div>
 </div>
 </div>
+<div class="card">
+<div class="card-body">
+<div class="row">
+<div class="col-md-12">
+<div class="about-info">
+<h4>About Me</h4>
+<div class="media mt-3">
+<img src="{{student.student_image.url}}" class="mr-3" alt="...">
+<div class="media-body">
+<ul>
+<li>
+<span class="title-span">Full Name : </span>
+<span class="info-span">{{ student.first_name}}</span>
+</li>
+<li>
+<span class="title-span">Department : </span>
+<span class="info-span">{{student.section}}</span>
+</li>
+<li>
+<span class="title-span">Mobile : </span>
+<span class="info-span">{{student.mobile_number}}</span>
+</li>
+<li>
+<span class="title-span">Email : </span>
+<span class="info-span"><a href="{{student.parent.father_email}}" class="__cf_email__" data-cfemail="7216131b010b32151f131b1e5c111d1f">[email&#160;protected]</a></span>
+</li>
+<li>
+<span class="title-span">Gender : </span>
+<span class="info-span">{{student.gender}}</span>
+</li>
+<li>
+<span class="title-span">DOB : </span>
+<span class="info-span">{{student.date_of_birth}}</span>
+</li>
+</ul>
+</div>
+</div>
