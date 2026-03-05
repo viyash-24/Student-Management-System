@@ -94,3 +94,10 @@
                                         <input type="text" name="section" class="form-control" value="{{ student.section }}">
                                     </div>
                                 </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Student Image</label>
+                                        <input type="file" name="student_image" class="form-control">
+                                        <small>Current Image: {{ student.student_image.url }}</small>
+                                    </div>
+                                </div>
